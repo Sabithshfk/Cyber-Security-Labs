@@ -1,0 +1,9 @@
+Day 31
+
+Actions:
+- Continued targeted IT Support and SOC job applications
+- Practiced spoken technical explanations for interview improvement
+- Reviewed IT escalation processes and enterprise support workflows
+
+Learning:
+- Learned how escalation works between L1, L2, and L3 support teams in enterprise IT environments
