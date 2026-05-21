@@ -1,0 +1,9 @@
+Day 33
+
+Actions:
+- Continued targeted IT and infrastructure support applications
+- Practiced explaining real-world cyber security incident handling
+- Increased professional networking engagement on LinkedIn
+
+Learning:
+- Reviewed basic enterprise networking concepts including VLAN, DHCP, DNS, and gateway functionality
