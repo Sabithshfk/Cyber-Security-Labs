@@ -1,4 +1,4 @@
-# Projector Troubleshooting Guide
+# Projector Troubleshooting Guide 
 
 ## Problem
 Projector shows no display.
