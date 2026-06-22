@@ -1,9 +1,0 @@
-Day 27
-
-Actions:
-- Applied for UAE IT Support roles
-- Connected with recruiters and IT professionals
-- Practiced interview questions and communication
-
-Learning:
-- Reviewed common Active Directory tasks and user management workflows

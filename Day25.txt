@@ -1,9 +1,0 @@
-Day 25
-
-Actions:
-- Applied for recent UAE IT Support roles
-- Connected with hospitality IT professionals
-- Continued follow-up and networking
-
-Learning:
-- Learned how Active Directory is used for user and access management in enterprise environments

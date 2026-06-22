@@ -1,9 +1,0 @@
-Day 32
-
-Actions:
-- Continued targeted job applications for IT Support and infrastructure roles
-- Practiced explaining real-world technical incidents and troubleshooting scenarios
-- Reviewed enterprise ticketing workflows and SLA concepts
-
-Learning:
-- Learned ticket prioritization and SLA handling in enterprise support environments

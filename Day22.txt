@@ -1,9 +1,0 @@
-Day 22
-
-Actions:
-- Applied for UAE IT Support & SOC Analyst roles
-- Connected with professionals in UAE
-
-Learning:
-- Learned difference between false positives and true positives in alerts
-- Understood how analysts validate alerts

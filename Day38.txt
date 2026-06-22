@@ -1,9 +1,0 @@
-Day 38
-
-Actions:
-- Attended enterprise client interview for onsite AV and infrastructure support role
-- Reviewed technical interview questions and troubleshooting concepts
-- Continued improving enterprise support knowledge and communication skills
-
-Learning:
-- Learned PXE boot concepts, boot order troubleshooting, and enterprise boot process basics

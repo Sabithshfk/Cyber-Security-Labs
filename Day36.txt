@@ -1,9 +1,0 @@
-Day 36
-
-Actions:
-- Continued targeted applications for IT Support and infrastructure roles
-- Practiced explaining network troubleshooting processes verbally
-- Improved professional profile and reviewed enterprise authentication concepts
-
-Learning:
-- Learned basic Active Directory concepts including domain users, MFA, and authentication workflows

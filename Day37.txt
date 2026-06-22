@@ -1,9 +1,0 @@
-Day 37
-
-Actions:
-- Continued targeted applications for IT and infrastructure support roles
-- Practiced explaining real-world technical troubleshooting scenarios
-- Reviewed enterprise AV and Teams Room troubleshooting concepts
-
-Learning:
-- Learned common AV troubleshooting steps including audio, display, and conferencing system issue resolution
