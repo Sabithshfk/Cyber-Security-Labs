@@ -36,3 +36,5 @@ I am an IT Systems Support Engineer with interests in Infrastructure Support, Cy
 
 ### Interview Preparation
 - IT Support Interview Questions
+
+### Printer Troubleshooting
