@@ -1,0 +1,255 @@
+# Printer Troubleshooting
+
+## Purpose
+
+This guide covers common printer issues encountered in IT Support environments and the troubleshooting steps used to resolve them.
+
+---
+
+## Common Symptoms
+
+* Printer offline
+* Paper jams
+* Printing blank pages
+* Print jobs stuck in queue
+* Slow printing
+* Poor print quality
+* Printer not detected
+* Wireless printing issues
+
+---
+
+## Initial Checks
+
+### Verify Power
+
+Check:
+
+* Printer is powered on
+* Power cable is secure
+* No error lights are displayed
+
+---
+
+### Verify Physical Connections
+
+For USB printers:
+
+* Check USB cable connection
+* Try a different USB port
+* Test with another cable if available
+
+For Network Printers:
+
+* Verify Ethernet cable connection
+* Verify WiFi connection
+* Confirm IP address is assigned
+
+---
+
+## Check Printer Status
+
+Windows:
+
+1. Open Settings
+2. Bluetooth & Devices
+3. Printers & Scanners
+4. Select printer
+
+Verify:
+
+* Printer is Online
+* Correct printer is set as Default
+
+---
+
+## Clear Print Queue
+
+Open:
+
+```cmd
+net stop spooler
+del /Q /F %systemroot%\System32\spool\PRINTERS\*.*
+net start spooler
+```
+
+This clears stuck print jobs.
+
+---
+
+## Restart Print Spooler Service
+
+Open Command Prompt as Administrator:
+
+```cmd
+net stop spooler
+net start spooler
+```
+
+---
+
+## Driver Verification
+
+Open Device Manager.
+
+Check:
+
+* Printer appears correctly
+* No warning symbols
+* Driver installed properly
+
+If necessary:
+
+* Remove printer
+* Reinstall latest manufacturer driver
+
+---
+
+## Network Printer Troubleshooting
+
+Find printer IP address.
+
+Ping printer:
+
+```cmd
+ping <printer-ip>
+```
+
+Example:
+
+```cmd
+ping 192.168.1.100
+```
+
+If ping fails:
+
+* Check network connection
+* Verify printer and PC are on same network
+* Restart printer
+
+---
+
+## Wireless Printer Troubleshooting
+
+Verify:
+
+* Printer connected to correct WiFi network
+* Strong signal strength
+* Router functioning correctly
+
+Reconnect printer to WiFi if necessary.
+
+---
+
+## Paper Jam Troubleshooting
+
+### Common Causes
+
+* Torn paper inside printer
+* Incorrect paper size
+* Damaged feed rollers
+* Misaligned paper
+
+### Steps
+
+1. Turn printer off.
+2. Open all access panels.
+3. Remove jammed paper carefully.
+4. Check for torn paper pieces.
+5. Reload paper correctly.
+6. Power printer on and test.
+
+---
+
+## Print Quality Issues
+
+### Faded Prints
+
+Check:
+
+* Ink levels
+* Toner levels
+* Print head condition
+
+### Streaks or Lines
+
+Perform:
+
+* Print head cleaning
+* Alignment procedure
+
+Using printer maintenance utilities.
+
+---
+
+## Canon PIXMA Paper Feed Issue
+
+### Customer Issue
+
+* Canon PIXMA G3416
+* Paper pulled to one side
+* Frequent paper jams
+
+### Findings
+
+* Printer feeds paper unevenly
+* Possible roller or feed mechanism issue
+* Unit may still be under warranty
+
+### Resolution
+
+* Recommended official warranty inspection
+* Advised customer to contact authorized Canon service provider
+* Avoided disassembly to protect warranty status
+
+---
+
+## When to Escalate
+
+Escalate to authorized service center when:
+
+* Internal feed mechanism failure
+* Hardware faults
+* Print head failure
+* Warranty repairs required
+
+---
+
+## Preventive Maintenance
+
+* Keep printer clean
+* Use correct paper type
+* Avoid overloading paper tray
+* Keep drivers updated
+* Perform periodic cleaning
+
+---
+
+## Real-World Example
+
+### Customer Visit
+
+Issues:
+
+* Canon PIXMA G3416 paper jam
+* Old Lenovo desktop with WiFi problems
+
+Actions:
+
+* Diagnosed printer feed issue
+* Verified possible warranty route
+* Improved WiFi connectivity by adjusting router placement
+* Planned remote support for Windows updates
+
+Outcome:
+
+* Customer informed of repair options
+* Warranty service recommended before third-party repair
+
+---
+
+## References
+
+* Canon Printer Support
+* Windows Print Spooler Documentation
+* Network Printer Troubleshooting Best Practices
